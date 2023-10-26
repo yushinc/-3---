@@ -11,13 +11,13 @@
     {{#articleList}}
         <tr>
             <th>{{id}}</th>
-            <td><a href="/articles/{{id}}">{{title}}</a></td>
+            <td><a href="/articles/{{id}}">{{title}}</a></td> <!-- 제목 클릭 시 해당 게시글 상세페이지로 이동 -->
             <td>{{content}}</td>
         </tr>
     {{/articleList}}
     </tbody>
 </table>
 
-<a href="/articles/new">New Article</a>
+<a href="/articles/new">New Article</a> <!-- 게시글 생성 링크 -->
 
 {{>layouts/footer}}
